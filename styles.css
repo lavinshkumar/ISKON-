@@ -1,0 +1,296 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* SECTION BACKGROUNDS */
+#hero {
+  background: linear-gradient(to right,#f5eaad, #79eef7); /* water and forest tones */
+  padding: 60px 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  text-align: left;
+}
+
+.hero-text .logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #444;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.krishna-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+
+#about {
+  background: linear-gradient(to right, #f5eaad, #79eef7); /* Forest */
+  color: #0a0a0a;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#gallery {
+  background: linear-gradient(to right, #f5eaad, #79eef7); /* Sun */
+  padding: 60px 20px;
+  text-align: center;
+  color: #000;
+}
+
+/* Visitor Counter Section */
+#counter {
+  background: linear-gradient(to right, #f5eaad, #79eef7); /* Night blue theme */
+  color: rgb(12, 12, 12);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #0c0c0c;
+  padding: 40px 60px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.counter-box h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+#visitor-count {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+
+#register {
+  background: linear-gradient(to right, #f5eaad, #79eef7); /* Earth/Nature */
+  padding: 60px 20px;
+  color: rgb(12, 12, 12);
+  text-align: center;
+}
+
+#products {
+  background: linear-gradient(to right, #f5eaad, #79eef7); /* Warm Sunset */
+  padding: 60px 20px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product-item {
+  width: 200px;
+  background: rgb(235, 150, 150);
+  border-radius: 10px;
+  padding: 15px;
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+/* HERO */
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* GALLERY */
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery-img {
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* COUNTER */
+#visitor-count {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* REGISTRATION FORM */
+#registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#registration-form input {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+}
+#registration-form button {
+  padding: 10px 20px;
+  background-color: #f5b8b8;
+  color: #4e574e;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#registration-form button:hover {
+  background-color: #eee;
+}
+
+/* PRODUCTS */
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product-item {
+  width: 180px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  color: #000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #f3eded;
+  color: rgb(8, 8, 8);
+  text-align: center;  /* This centers the text */
+  padding: 20px;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Donate Section */
+#donate {
+  background: linear-gradient(to right,#f5eaad, #79eef7);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.donation-boxes {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.donate-btn {
+  padding: 15px 30px;
+  background-color: #f1bba2;
+  color: rgb(12, 12, 12);
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #a5e0d3;
+}
+
+.upi-info {
+  margin-top: 30px;
+}
+
+.qr-code {
+  width: 200px;
+  margin-top: 15px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a img {
+  width: 50px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
